@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1394802120498436005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2707029113868856982}
+  - component: {fileID: 2007665979589102784}
+  - component: {fileID: 3772884080927511276}
+  - component: {fileID: 1985511957158812434}
+  - component: {fileID: 7472081488554384879}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2707029113868856982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394802120498436005}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2139573446788303054}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007665979589102784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394802120498436005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2641aecdeb6933a47baba862c50d2e07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Creepy wind
+    audioType: 1
+    clip: {fileID: 8300000, guid: 5160b118e75bc70438016a652d4ae517, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Foot steps
+    audioType: 1
+    clip: {fileID: 8300000, guid: fded6de9c58faaf4ab595613280f87bd, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Metal pipe
+    audioType: 1
+    clip: {fileID: 8300000, guid: 46af771ee83a33e45b3a0fa35567e790, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hum 1
+    audioType: 1
+    clip: {fileID: 8300000, guid: 405c6793810aa2d4ead20ed98783bc45, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hum 2
+    audioType: 1
+    clip: {fileID: 8300000, guid: 0ea4520d4547c3543a1b0fdfd0fc7755, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hum 3
+    audioType: 1
+    clip: {fileID: 8300000, guid: 76514e56194d17041baa8d4da85879cd, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hum 4
+    audioType: 1
+    clip: {fileID: 8300000, guid: 2aa566f1771ce814cb3c9652040d5605, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: lullaby
+    audioType: 0
+    clip: {fileID: 8300000, guid: 6ca4a8cb7d4d94a42af1c0204b1f7e05, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: cici laugh 1
+    audioType: 1
+    clip: {fileID: 8300000, guid: 694101d880b6e4e4b8465448a6d1962a, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: gigi laugh 1
+    audioType: 1
+    clip: {fileID: 8300000, guid: 502be6e82d04e0348a2debe8c94f01f7, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: gigi laugh 2
+    audioType: 1
+    clip: {fileID: 8300000, guid: 40ea2a89ad10672498a2ca42ce09b11e, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: gigi laugh 3
+    audioType: 1
+    clip: {fileID: 8300000, guid: 6c0b8eabbdfff284993c60cb2ec04124, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+--- !u!114 &3772884080927511276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394802120498436005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a567192906ed607468326b2e4523c852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioName: lullaby
+--- !u!114 &1985511957158812434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394802120498436005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a567192906ed607468326b2e4523c852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioName: Creepy wind
+--- !u!114 &7472081488554384879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394802120498436005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f397aa51c367740b41cd5a6bf438c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
+  audioNames:
+  - gigi laugh 1
+  - gigi laugh 2
+  - gigi laugh 3
+--- !u!1 &3378553936763506879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2139573446788303054}
+  m_Layer: 0
+  m_Name: MANAGERS ===
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2139573446788303054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3378553936763506879}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2707029113868856982}
+  - {fileID: 7937391567964671989}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4684799426975325239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7937391567964671989}
+  - component: {fileID: 5032201184976032226}
+  m_Layer: 0
+  m_Name: Utils Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7937391567964671989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684799426975325239}
+  m_LocalRotation: {x: -0.40821788, y: 0.23456968, z: -0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0.37962437, y: 7.9656363, z: 5.135823}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2139573446788303054}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5032201184976032226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684799426975325239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0076f0d4e0e5324f95975a9ac8e96e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
